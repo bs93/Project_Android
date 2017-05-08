@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Sortuj według"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_weight="0.02"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_sort_by"
+        android:layout_weight="0.02"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:entries="@array/sort_by_array"/>
+
+    <TextView
+        android:text="Kolejność"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_weight="0.02"
+        android:layout_marginLeft="15dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_order"
+        android:layout_weight="0.02"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:entries="@array/order_by"/>
+
+    <Button
+        android:text="SORTUJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sort_button"
+        android:layout_weight="0.02"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="normal|bold"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp" />
+</LinearLayout>

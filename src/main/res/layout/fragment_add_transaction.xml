@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projekt.budgetdroid.AddTransactionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="@string/add_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:text="@string/add_button_text"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/transName_EditText"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        tools:text="@string/description"
+        android:layout_below="@+id/transName_EditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/description_EditText"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/transactionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_EditText"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        tools:text="@string/transactionDate" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:id="@+id/dateEditText"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/trans_vaule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateEditText"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6"
+        tools:text="@string/trans_vaule" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:id="@+id/transValue_TextEdit"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transValue_TextEdit"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView7"
+        tools:text="@string/currency" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:entries="@array/currency_array"
+        android:prompt="@string/currency_prompt"
+        android:layout_alignParentStart="true"
+        android:id="@+id/currency_spinner" />
+
+    <TextView
+        android:text="@string/trans_name_Text_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        tools:text="@string/trans_name_Text_View"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+</ScrollView>

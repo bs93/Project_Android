@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Budget Droid</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ustawienia</string>
+    <string name="txv_header">Domyślna waluta</string>
+    <string name="currency_prompt">Wybierz domyślną walutę</string>
+
+    <string name="action_sort">Sortuj</string>
+    <string name="action_filter">Filtruj</string>
+    <string name="action_remove_filter">Wyczyść filtry</string>
+
+    <string-array name="currency_array">
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="sort_by_array">
+        <item>Data</item>
+        <item>Wartość</item>
+    </string-array>
+
+    <string-array name="order_by">
+        <item>Rosnąco</item>
+        <item>Malejąco</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_button_text">Dodaj</string>
+    <string name="trans_name_Text_View">Nazwa transakcji</string>
+    <string name="description">Opis</string>
+    <string name="transactionDate">Data transakcji</string>
+    <string name="trans_vaule">Kwota</string>
+    <string name="currency">Waluta</string>
+</resources>
