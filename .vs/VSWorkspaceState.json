@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\gradle",
+    "\\src",
+    "\\src\\androidTest",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\projekt",
+    "\\src\\main\\java\\projekt\\budgetdroid",
+    "\\src\\test"
+  ],
+  "SelectedNode": "\\src\\main\\java\\projekt\\budgetdroid\\DbManager.java",
+  "PreviewInSolutionExplorer": false
+}
